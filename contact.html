@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Me</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <nav>
+      <a href="./index.html">Home </a>
+      <a href="./education.html"> Education</a>
+      <a href="./work.html">Work Experience</a>
+      <a href="#">Contact Me</a>
+    </nav>
+
+    <hr />
+
+    <h2>Contact Me</h2>
+
+    <div class="contact">
+      <form action="#" class="contact-form">
+        <p>Enter your info...</p>
+
+        <div class="name">
+          <label for="your-name">Your name</label>
+          <input type="text" id="your-name" name="your-name" />
+        </div>
+
+        <div class="email">
+          <label for="your-email">Your E-mail</label>
+          <input type="text" id="your-email" name="your-email" />
+        </div>
+
+        <div class="gender">
+          <label for="gender-drop">Gender</label>
+          <select id="gender-drop" name="gender">
+            <option value="" disabled selected>Select...</option>
+            <option value="Male">Male</option>
+            <option value="Female">Female</option>
+          </select>
+        </div>
+
+        <div class="massage">
+          <label for="massagebox">Message</label>
+          <textarea id="massagebox" name="massagebox" rows="10" cols="30">
+          </textarea>
+        </div>
+
+        <div class="btn">
+          <button type="submit" class="send">Send</button>
+          <button type="button" class="clear">Clear</button>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>

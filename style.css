@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit&family=Roboto&display=swap');
+
+* {
+  font-family: 'Kanit', sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  background-color: #f2eeee;
+}
+
+nav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  gap: 8px;
+}
+
+nav a {
+  text-decoration: none;
+  color: rgba(27, 88, 231, 0.7);
+  font-size: 20px;
+  padding-right: 20px;
+  margin-left: 0;
+}
+
+nav a:hover {
+  color: black;
+}
+
+body {
+  margin-left: 24px;
+}
+
+h1 {
+  margin: 0;
+}
+
+h3 {
+  margin: 0;
+  text-decoration: underline;
+}
+
+p {
+  margin-left: 20px;
+}
+
+.profile-img {
+  width: 180px;
+  height: 180px;
+  padding: 20px;
+}
+
+.profile > p {
+  width: 65%;
+  margin-top: 0;
+}
+
+.degree-img {
+  width: 150px;
+  margin: 0 20px;
+}
+
+.work-img {
+  width: 200px;
+  margin: 0 20px;
+}
+
+table {
+  width: 70%;
+  border-collapse: collapse;
+  margin: 20px;
+  text-align: left;
+}
+
+th {
+  text-align: center;
+  border: 3px solid #dddddd;
+}
+
+td {
+  border: 3px solid #dddddd;
+}
+
+.education-tb td:first-child,
+td:nth-child(2) {
+  text-align: center;
+}
+
+.work-experience-tb th {
+  background-color: rgb(169, 222, 228, 0.5);
+}
+
+.work-experience-tb th,
+.work-experience-tb td {
+  text-align: left;
+}
+
+.work-experience-tb th:first-child {
+  width: 20%;
+}
+
+.work-experience-tb th:nth-child(2),
+.work-experience-tb th:nth-child(3) {
+  width: 40%;
+}
+
+.contact {
+  border: 1px solid rgb(59, 57, 57, 0.3);
+  border-radius: 4px;
+  width: 70%;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 70vh;
+  margin: 20px 40px;
+}
+
+.contact-form .name,
+.email,
+.gender,
+.massage {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+}
+
+.contact-form input,
+textarea,
+select {
+  border: 1px solid rgb(59, 57, 57, 0.3);
+  border-radius: 4px;
+  padding: 4px 0;
+}
+
+.contact p {
+  margin-left: 0;
+}
+
+button {
+  cursor: pointer;
+}
